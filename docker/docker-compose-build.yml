@@ -42,3 +42,4 @@ services:
       - CRON_SCHEDULE=${CRON_SCHEDULE:-*/5 * * * *}
       - RUN_MODE=${RUN_MODE:-cron}
       - IMMEDIATE_RUN=${IMMEDIATE_RUN:-true}
+      
